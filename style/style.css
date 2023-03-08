@@ -1,0 +1,33 @@
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+}
+* {
+	border: 0;
+}  
+ul, ol, li{
+	list-style: none;
+} 
+a, button {
+	text-decoration: none;
+} 
+body {
+	color: initial;
+}
+body {
+	font-family: initial;
+}  
+button {
+	cursor: pointer;
+}
+
+/* header */
+
+/* main */
+
+/* main_menu */
+.main_menu{
+	height: 100%;
+	width: 252px;
+}
