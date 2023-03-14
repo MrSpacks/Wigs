@@ -25,6 +25,7 @@ button {
 	margin: 0 auto;
 	max-width: 1440px;
 	margin: 52px;
+	height: 100%;
 }
 body{
 	font-family: 'Sofia Pro';
@@ -102,24 +103,92 @@ vertical-align: middle;
 	top: 0;
 }
 .menu_halp{
-	text-align: center;
-	margin: 0 auto;
-	display: flex;
-	vertical-align: middle;
-	bottom: 0;
+	bottom: 40px;
 	position: fixed;
-	margin-bottom: 60px;
 	font-size: 15.7099px;
-
+	display: flex;
+}
+.menu_halp img{
+	margin-right: 15px;
 }
 .menu_halp:hover{
 	text-decoration: underline;
 }
-.menu_halp img{
-	width: 25px;
-	height: 25px;
+
+.menu_halp span{
+	margin-top: 16px;
 }
 .main_menu-items{
 }
 
 /* main-content */
+.main_conteiner{
+	width: 1100px;
+	margin-left: 290px;
+	
+}
+.main_blocks{
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+.main_blocks:first-child{
+	margin-top: 70px;
+	margin-bottom: 21px;
+}
+.vertical_block{
+	display: flex;
+}
+.vertical_card{
+	width: 259px;
+	height: 380px;
+}
+.horisontal_card{
+	width: 539px;
+	height: 180px;
+}
+.horisontal_card:first-child{
+	margin-bottom: 17px;
+}
+.horisontal_card img{
+	border-radius: 15px;
+}
+.card_title{
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	top: -55%;
+	font-family: 'Sofia Pro';
+	font-weight: 800;
+	font-size: 30px;
+}
+.vertical_card img{
+	border-radius: 15px;
+}
+.vertical_card:first-child{
+	margin-right: 21px;
+}
+.card_like{
+	position: relative;
+    top: -98%;
+    left: 78%;
+}
+.red{color: #FD2E24;}
+.blue{color: #001AA2;}
+
+.card_sutitle{
+	position: relative;
+	bottom: 70%;
+	margin-left: 20px;
+	font-family: 'Sofia Pro';
+	font-weight: 800;
+	font-size: 26px;
+}
+.card_text{
+	position: relative;
+	bottom: 60%;
+	margin-left: 20px;
+	font-family: 'Sofia Pro';
+	font-weight: 400;
+	font-size: 15px;
+}
