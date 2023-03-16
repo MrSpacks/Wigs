@@ -118,8 +118,6 @@ vertical-align: middle;
 .menu_halp span{
 	margin-top: 16px;
 }
-.main_menu-items{
-}
 
 /* main-content */
 .main_conteiner{
@@ -192,3 +190,9 @@ vertical-align: middle;
 	font-weight: 400;
 	font-size: 15px;
 }
+/* adaptive */
+/* PC */
+@media screen and (max-width: 1400px) {
+	
+  }
+  
