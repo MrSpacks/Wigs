@@ -83,9 +83,9 @@ text-decoration: underline;
 	margin-bottom: 22px;
 }
 .menu_item{
-margin-bottom: 25px;
-display: flex;
-vertical-align: middle;
+	margin-bottom: 25px;
+	display: flex;
+	vertical-align: middle;
 }
 .menu_item:hover{
 	text-decoration: underline;
@@ -99,7 +99,7 @@ vertical-align: middle;
 	margin-top: 52px;
 	margin-left: 55px;
 	height: 100%;
-	width: 252px;
+	width: 230px;
 	position: absolute;
 	top: 0;
 }
@@ -195,7 +195,7 @@ vertical-align: middle;
 	display: none;
     position: absolute;
     left: 60px;
-    top: 56px;
+    top: 46px;
     width: 20px;
     height: 20px;
 }
@@ -223,4 +223,36 @@ vertical-align: middle;
 
 	}
   }
-  
+@media screen and (max-width: 1100px) {
+	.wrapper{
+		width: 100%;
+		margin: 20px;
+		height: 100%;
+     	text-align: -webkit-center;
+	}
+	.main_conteiner{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.main_blocks{
+		display: block;
+	}
+	.horisontal_card{
+		margin-top: 21px;
+		margin-bottom: 21px;
+	}
+	.vertical_block {
+    text-align: initial;
+    display: inline-flex;
+	}
+	.header_conteiner {
+    margin-top: 60px;
+	margin-left: 0;
+    display: table-caption;
+	}
+	.search_box{
+		margin-bottom: 20px;
+	}
+
+
+}
