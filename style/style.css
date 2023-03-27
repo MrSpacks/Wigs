@@ -89,7 +89,6 @@ text-decoration: underline;
 }
 .menu_item:hover{
 	text-decoration: underline;
-
 }
 .menu_item img{
 	margin-right: 12px;
@@ -115,7 +114,6 @@ text-decoration: underline;
 .menu_halp:hover{
 	text-decoration: underline;
 }
-
 .menu_halp span{
 	margin-top: 16px;
 }
@@ -174,7 +172,6 @@ text-decoration: underline;
 }
 .red{color: #FD2E24;}
 .blue{color: #001AA2;}
-
 .card_sutitle{
 	position: relative;
 	bottom: 70%;
@@ -253,6 +250,4 @@ text-decoration: underline;
 	.search_box{
 		margin-bottom: 20px;
 	}
-
-
 }
